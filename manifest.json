@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Get PR",
+  "version": "1.0",
+  "permissions": ["bookmarks", "storage", "identity"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoGqFNxPh/mglBOGtS7iutDoOhd3TTfep5cUYX02yqEp0qjsgc7odknCC8cBG4D1s2fNNY+tgnGKbxZ+LJVRJQIPeSRhzcE8fVeWEvDYNrcIAZsssU1DdFdN2lAF+J2+o8DE8XK7/W/AZftWRaJ2RkuwAJDVH99fF3wyMJGCgirqxE5D5yQN8Ks8FHU77FQTib+q09rJLft5SwllEdutdMnh0asGoWf3UVQafiRyUksx+dVmEPaDzYncgVh6q3nxIUiWQyldpIEnM7Fu3qf2GZR8723rXTw8/YAKflOohQBHL4lY9WVj9B9OMB0E7ziNDCAVhfK/0YiLTl2ukborsgQIDAQAB",
+  "oauth2": {
+    "client_id": "Ov23liHKg8eo7LpGWT5f",
+    "scopes": [""]
+  },
+  "host_permissions": ["https://github.com/*", "https://api.github.com/*"]
+}
